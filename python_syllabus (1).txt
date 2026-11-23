@@ -1,0 +1,7 @@
+Course: Python Programming.
+Instructor: Omar Khaled.
+Duration: 10 weeks.
+Grading: quizzes 20%, labs 30%, midterm exam 20%, final exam 30%.
+Software: Python 3.11 and Jupyter Notebook.
+Lab sessions: every Thursday.
+Office hours: Sundays from 11 AM to 1 PM.

@@ -1,0 +1,16 @@
+question,source,keywords,answerable
+What is overfitting and how can it be reduced?,ml_lecture_notes.pdf,"['training data', 'regularization']",True
+What is the formula for precision?,ml_lecture_notes.pdf,"['tp', 'fp']",True
+What does the learning rate control in gradient descent?,ml_lecture_notes.pdf,['step size'],True
+Which activation functions are used in neural networks?,ml_lecture_notes.pdf,"['relu', 'sigmoid', 'softmax']",True
+Who is the instructor of the Machine Learning course?,ml_syllabus.txt,['sara hassan'],True
+How is the Machine Learning course graded?,ml_syllabus.txt,"['30%', '40%']",True
+What is the difference between a list and a tuple in Python?,python_lectures.docx,"['mutable', 'immutable']",True
+When are the Python course office hours?,python_syllabus.txt,['sunday'],True
+What is a primary key in SQL?,sql_glossary.csv,['unique'],True
+What is the difference between WHERE and HAVING?,sql_glossary.csv,"['rows', 'groups']",True
+What does ACID stand for?,sql_glossary.csv,"['atomicity', 'consistency', 'isolation', 'durability']",True
+how can i stop my model from memorizing the training data?,ml_lecture_notes.pdf,['regularization'],True
+What is the capital of France?,,[],False
+What is the final exam date of the SQL course?,,[],False
+Which university is the Machine Learning course taught at?,,[],False

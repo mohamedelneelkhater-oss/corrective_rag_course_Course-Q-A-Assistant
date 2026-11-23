@@ -1,0 +1,15 @@
+term,definition,example
+SELECT,The SELECT statement retrieves data from one or more tables.,SELECT name FROM students;
+WHERE,The WHERE clause filters individual rows before any grouping is done.,SELECT * FROM students WHERE age > 20;
+GROUP BY,"The GROUP BY clause groups rows that share the same value so aggregate functions such as COUNT, SUM and AVG can be applied.","SELECT city, COUNT(*) FROM students GROUP BY city;"
+HAVING,"The HAVING clause filters groups after GROUP BY, while WHERE filters rows before grouping.","SELECT city, COUNT(*) FROM students GROUP BY city HAVING COUNT(*) > 5;"
+INNER JOIN,An INNER JOIN returns only the rows that have matching values in both tables.,SELECT * FROM orders INNER JOIN customers ON orders.cid = customers.id;
+LEFT JOIN,"A LEFT JOIN returns all rows from the left table and the matching rows from the right table, with NULL when there is no match.",SELECT * FROM customers LEFT JOIN orders ON customers.id = orders.cid;
+PRIMARY KEY,A primary key uniquely identifies each row in a table. It must be unique and cannot be NULL.,"CREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(50));"
+FOREIGN KEY,A foreign key is a column that references the primary key of another table and enforces referential integrity.,FOREIGN KEY (cid) REFERENCES customers(id)
+INDEX,An index is a data structure that speeds up data retrieval at the cost of extra storage and slower writes.,CREATE INDEX idx_name ON students(name);
+NORMALIZATION,"Normalization is the process of organizing tables to reduce data redundancy and improve data integrity. The common levels are 1NF, 2NF and 3NF.",Splitting a customers and orders table into two tables.
+ACID,"ACID stands for Atomicity, Consistency, Isolation and Durability, the four properties that guarantee reliable database transactions.",A bank transfer either fully completes or is fully rolled back.
+TRANSACTION,"A transaction is a group of SQL statements that are executed as a single unit using BEGIN, COMMIT and ROLLBACK.",BEGIN; UPDATE accounts SET balance = balance - 100; COMMIT;
+DISTINCT,The DISTINCT keyword removes duplicate rows from the result of a query.,SELECT DISTINCT city FROM students;
+ORDER BY,The ORDER BY clause sorts the result set in ascending (ASC) or descending (DESC) order.,SELECT * FROM students ORDER BY age DESC;

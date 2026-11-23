@@ -1,0 +1,7 @@
+Course: SQL and Databases.
+Instructor: Mona Adel.
+Duration: 8 weeks.
+Grading: assignments 25%, midterm exam 25%, final project 50%.
+Software: PostgreSQL 15.
+Office hours: Wednesdays from 1 PM to 3 PM.
+Textbook: Database System Concepts by Silberschatz.

@@ -1,0 +1,7 @@
+Course: Machine Learning Fundamentals.
+Instructor: Sara Hassan.
+Duration: 12 weeks.
+Grading: assignments 30%, midterm exam 30%, final project 40%.
+Prerequisites: basic Python and linear algebra.
+Office hours: Tuesdays from 2 PM to 4 PM.
+Textbook: Hands-On Machine Learning by Aurelien Geron.

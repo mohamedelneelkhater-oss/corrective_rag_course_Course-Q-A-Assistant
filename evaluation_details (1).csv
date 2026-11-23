@@ -1,0 +1,100 @@
+model,mode,question,answerable,answer,score,context_hit,latency,rewrites
+flan-t5-small,standard,What is overfitting and how can it be reduced?,True,"With more training data, regularization, cross-validation, early stopping and dropout",1.0,True,0.8974213600158691,0
+flan-t5-small,standard,What is the formula for precision?,True,"TP/(TP+FP) and recall is TP/(TP+FN), where TP means true positives, FP false positives and FN false negatives. The F1 score is the harmonic mean of precision and recall",1.0,True,1.9480867385864258,0
+flan-t5-small,standard,What does the learning rate control in gradient descent?,True,the step size of each update,1.0,True,0.485426664352417,0
+flan-t5-small,standard,Which activation functions are used in neural networks?,True,"ReLU, sigmoid and softmax",1.0,True,0.6117148399353027,0
+flan-t5-small,standard,Who is the instructor of the Machine Learning course?,True,Sara Hassan,1.0,True,0.40873217582702637,0
+flan-t5-small,standard,How is the Machine Learning course graded?,True,[3],0.0,True,0.3744232654571533,0
+flan-t5-small,standard,What is the difference between a list and a tuple in Python?,True,"[2] Variables and Data Types. Python has built-in data types such as int, float, str, bool, list, tuple, dict and set. A list is mutable, which means it can be changed after creation, while a tuple is immutable.",1.0,True,3.9564266204833984,0
+flan-t5-small,standard,When are the Python course office hours?,True,Wednesdays from 1 PM to 3 PM,0.0,True,0.5567588806152344,0
+flan-t5-small,standard,What is a primary key in SQL?,True,identifies each row in a table,0.0,True,0.5359811782836914,0
+flan-t5-small,standard,What is the difference between WHERE and HAVING?,True,"SELECT HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAVING , HAV",0.0,True,3.8257837295532227,0
+flan-t5-small,standard,What does ACID stand for?,True,"Atomicity, Consistency, Isolation and Durability",1.0,True,0.6744492053985596,0
+flan-t5-small,standard,how can i stop my model from memorizing the training data?,True,dropout,0.0,True,0.432727575302124,0
+flan-t5-small,standard,What is the capital of France?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,0.022453784942626953,0
+flan-t5-small,standard,What is the final exam date of the SQL course?,False,SELECT * FROM students ORDER BY age DESC,0.0,,0.7546370029449463,0
+flan-t5-small,standard,Which university is the Machine Learning course taught at?,False,"University of California, Berkeley",0.0,,0.4225938320159912,0
+flan-t5-small,corrective,What is overfitting and how can it be reduced?,True,"with more training data, regularization, cross-validation, early stopping and dropout",1.0,True,1.032623529434204,0
+flan-t5-small,corrective,What is the formula for precision?,True,TP/(TP+FP),1.0,True,0.6909332275390625,0
+flan-t5-small,corrective,What does the learning rate control in gradient descent?,True,the step size of each update,1.0,True,1.0702769756317139,0
+flan-t5-small,corrective,Which activation functions are used in neural networks?,True,"ReLU, sigmoid and softmax",1.0,True,1.197516918182373,0
+flan-t5-small,corrective,Who is the instructor of the Machine Learning course?,True,Sara Hassan,1.0,True,1.0524818897247314,0
+flan-t5-small,corrective,How is the Machine Learning course graded?,True,30,0.0,True,0.9301340579986572,0
+flan-t5-small,corrective,What is the difference between a list and a tuple in Python?,True,a list is mutable,0.5,True,1.1398067474365234,0
+flan-t5-small,corrective,When are the Python course office hours?,True,Wednesdays from 1 PM to 3 PM,0.0,True,0.8270432949066162,0
+flan-t5-small,corrective,What is a primary key in SQL?,True,[1] PRIMARY KEY. A primary key uniquely identifies each row in a table. It must be unique and cannot be NULL.,1.0,True,1.7951455116271973,0
+flan-t5-small,corrective,What is the difference between WHERE and HAVING?,True,SELECT DISTINCT HAVING,0.0,True,0.8570916652679443,0
+flan-t5-small,corrective,What does ACID stand for?,True,"Atomicity, Consistency, Isolation and Durability",1.0,True,0.847583532333374,0
+flan-t5-small,corrective,how can i stop my model from memorizing the training data?,True,dropout,0.0,True,0.7349483966827393,0
+flan-t5-small,corrective,What is the capital of France?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,0.4642939567565918,2
+flan-t5-small,corrective,What is the final exam date of the SQL course?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,1.5222113132476807,2
+flan-t5-small,corrective,Which university is the Machine Learning course taught at?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,1.5540251731872559,2
+flan-t5-base,standard,What is overfitting and how can it be reduced?,True,"Overfitting happens when a model memorizes the training data and performs poorly on new data. Overfitting can be reduced with more training data, regularization, cross-validation, early stopping and dropout.",1.0,True,4.430618047714233,0
+flan-t5-base,standard,What is the formula for precision?,True,TP/(TP+FP),1.0,True,1.5327122211456299,0
+flan-t5-base,standard,What does the learning rate control in gradient descent?,True,step size of each update.,1.0,True,1.4610724449157715,0
+flan-t5-base,standard,Which activation functions are used in neural networks?,True,"ReLU, sigmoid and softmax.",1.0,True,1.6530747413635254,0
+flan-t5-base,standard,Who is the instructor of the Machine Learning course?,True,Sara Hassan.,1.0,True,1.3351919651031494,0
+flan-t5-base,standard,How is the Machine Learning course graded?,True,"assignments 30%, midterm exam 30%, final project 40%.",1.0,True,1.8150923252105713,0
+flan-t5-base,standard,What is the difference between a list and a tuple in Python?,True,"A list is mutable, which means it can be changed after creation, while a tuple is immutable.",1.0,True,3.8160245418548584,0
+flan-t5-base,standard,When are the Python course office hours?,True,Sundays from 11 AM to 1 PM.,1.0,True,1.556856393814087,0
+flan-t5-base,standard,What is a primary key in SQL?,True,unique,1.0,True,0.9199850559234619,0
+flan-t5-base,standard,What is the difference between WHERE and HAVING?,True,WHERE HAVING  SELECT count(*) FROM students GROUP BY city HAVING COUNT(*) > 5; WHERE HAVING  SELECT count(*) FROM customers,0.0,True,4.298520088195801,0
+flan-t5-base,standard,What does ACID stand for?,True,"Atomicity, Consistency, Isolation and Durability",1.0,True,1.8232917785644531,0
+flan-t5-base,standard,how can i stop my model from memorizing the training data?,True,dropout.,0.0,True,1.380863904953003,0
+flan-t5-base,standard,What is the capital of France?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,0.022054433822631836,0
+flan-t5-base,standard,What is the final exam date of the SQL course?,False,30th,0.0,,0.9954404830932617,0
+flan-t5-base,standard,Which university is the Machine Learning course taught at?,False,"University of California, Berkeley.",0.0,,1.3914005756378174,0
+flan-t5-base,corrective,What is overfitting and how can it be reduced?,True,"Overfitting can be reduced with more training data, regularization, cross-validation, early stopping and dropout.",1.0,True,3.392899751663208,0
+flan-t5-base,corrective,What is the formula for precision?,True,TP/(TP+FP),1.0,True,2.06478214263916,0
+flan-t5-base,corrective,What does the learning rate control in gradient descent?,True,step size of each update,1.0,True,3.3331961631774902,0
+flan-t5-base,corrective,Which activation functions are used in neural networks?,True,"ReLU, sigmoid and softmax.",1.0,True,3.444542407989502,0
+flan-t5-base,corrective,Who is the instructor of the Machine Learning course?,True,Sara Hassan.,1.0,True,3.250011920928955,0
+flan-t5-base,corrective,How is the Machine Learning course graded?,True,"assignments 30%, midterm exam 30%, final project 40%",1.0,True,3.6783900260925293,0
+flan-t5-base,corrective,What is the difference between a list and a tuple in Python?,True,tuple is immutable.,1.0,True,3.5393552780151367,0
+flan-t5-base,corrective,When are the Python course office hours?,True,Sundays from 11 AM to 1 PM.,1.0,True,3.0964322090148926,0
+flan-t5-base,corrective,What is a primary key in SQL?,True,identifies each row in a table,0.0,True,3.1406052112579346,0
+flan-t5-base,corrective,What is the difference between WHERE and HAVING?,True,WHERE HAVING  SELECT count(*) FROM students GROUP BY city HAVING COUNT(*) > 5,0.0,True,3.759540319442749,0
+flan-t5-base,corrective,What does ACID stand for?,True,"Atomicity, Consistency, Isolation and Durability.",1.0,True,2.342597246170044,0
+flan-t5-base,corrective,how can i stop my model from memorizing the training data?,True,"Sorry, the course materials do not contain enough information to answer this question.",0.0,False,4.474606275558472,2
+flan-t5-base,corrective,What is the capital of France?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,1.0876333713531494,2
+flan-t5-base,corrective,What is the final exam date of the SQL course?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,4.265379428863525,2
+flan-t5-base,corrective,Which university is the Machine Learning course taught at?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,4.429491281509399,2
+qwen2.5-0.5b-instruct,standard,What is overfitting and how can it be reduced?,True,"Overfitting occurs when a model memorizes the training data and performs poorly on new data. To reduce overfitting, you can use more training data, regularization (e.g., L1/L2 regularization), cross-validation, early stopping, and dropout techniques.",1.0,True,9.169652938842773,0
+qwen2.5-0.5b-instruct,standard,What is the formula for precision?,True,Precision is calculated as TP (True Positives) divided by the sum of TP and FP (False Positives).,1.0,True,5.427887678146362,0
+qwen2.5-0.5b-instruct,standard,What does the learning rate control in gradient descent?,True,The learning rate controls the step size of each update in gradient descent. A larger learning rate leads to faster convergence but may result in overshooting the minimum. A smaller learning rate allows for slower convergence but reduces the risk of getting stuck in local minima.,1.0,True,8.692734956741333,0
+qwen2.5-0.5b-instruct,standard,Which activation functions are used in neural networks?,True,Backpropagation computes the gradients of the loss with respect to the weights using the chain rule.,0.0,True,4.522945404052734,0
+qwen2.5-0.5b-instruct,standard,Who is the instructor of the Machine Learning course?,True,The instructor of the Machine Learning course is Sara Hassan.,1.0,True,4.056614398956299,0
+qwen2.5-0.5b-instruct,standard,How is the Machine Learning course graded?,True,"The Machine Learning course is graded using an assessment system that includes assignments (30%), midterms (30%) and a final project (40%).",1.0,True,6.379845380783081,0
+qwen2.5-0.5b-instruct,standard,What is the difference between a list and a tuple in Python?,True,"A list is mutable, allowing its elements to be changed, whereas a tuple is immutable, meaning its elements cannot be modified once created.",1.0,True,5.305497169494629,0
+qwen2.5-0.5b-instruct,standard,When are the Python course office hours?,True,The Python course office hours are Mondays from 11 AM to 1 PM.,0.0,True,4.487375974655151,0
+qwen2.5-0.5b-instruct,standard,What is a primary key in SQL?,True,A primary key in SQL refers to a unique identifier for each row in a table. It must be unique and cannot be NULL.,1.0,True,4.944437742233276,0
+qwen2.5-0.5b-instruct,standard,What is the difference between WHERE and HAVING?,True,"The WHERE clause filters rows before grouping, while the HAVING clause filters groups after GROUP BY.",1.0,True,3.952791690826416,0
+qwen2.5-0.5b-instruct,standard,What does ACID stand for?,True,"ACID stands for Atomicity, Consistency, Isolation, and Durability.",1.0,True,3.8645198345184326,0
+qwen2.5-0.5b-instruct,standard,how can i stop my model from memorizing the training data?,True,"To prevent your model from memorizing the training data, you can implement techniques like regularization, cross-validation, early stopping, and dropout.",1.0,True,5.978045463562012,0
+qwen2.5-0.5b-instruct,standard,What is the capital of France?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,0.02146148681640625,0
+qwen2.5-0.5b-instruct,standard,What is the final exam date of the SQL course?,False,"The final exam for the SQL course is scheduled for Friday, October 17th.",0.0,,4.524014949798584,0
+qwen2.5-0.5b-instruct,standard,Which university is the Machine Learning course taught at?,False,"The Machine Learning course is taught at [1], which is an institution with basic Python and linear algebra prerequisites.",0.0,,5.212642192840576,0
+qwen2.5-0.5b-instruct,corrective,What is overfitting and how can it be reduced?,True,"Overfitting occurs when a model memorizes the training data and performs poorly on new data. To reduce overfitting, you can use more training data, regularization techniques like L1 and L2 regularization, cross-validation, early stopping, and dropout.",1.0,True,10.780375719070435,0
+qwen2.5-0.5b-instruct,corrective,What is the formula for precision?,True,"Precision is calculated as TP (True Positives) divided by the sum of TP, FP (False Positives), and FN (False Negatives).",1.0,True,6.945390224456787,0
+qwen2.5-0.5b-instruct,corrective,What does the learning rate control in gradient descent?,True,The learning rate controls the step size of each update in gradient descent. A larger learning rate means faster convergence but may overshoot the minimum; a smaller learning rate means slower convergence but avoids overshooting.,1.0,True,13.095492839813232,0
+qwen2.5-0.5b-instruct,corrective,Which activation functions are used in neural networks?,True,"Backpropagation computes the gradients of the loss with respect to the weights using the chain rule. The activation functions that are commonly used in neural networks include ReLU (Rectified Linear Unit), sigmoid, and softmax.",1.0,True,12.566240787506104,0
+qwen2.5-0.5b-instruct,corrective,Who is the instructor of the Machine Learning course?,True,The instructor of the Machine Learning Fundamentals course is Sara Hassan.,1.0,True,10.003793716430664,0
+qwen2.5-0.5b-instruct,corrective,How is the Machine Learning course graded?,True,The Machine Learning course is graded on an A-F scale with grades ranging from 95% to 100%.,0.0,True,10.165371179580688,0
+qwen2.5-0.5b-instruct,corrective,What is the difference between a list and a tuple in Python?,True,"A list is mutable, meaning it can be changed after its creation, whereas a tuple is immutable.",1.0,True,10.05604600906372,0
+qwen2.5-0.5b-instruct,corrective,When are the Python course office hours?,True,The Python course office hours are Mondays from 11 AM to 1 PM.,0.0,True,9.623279094696045,0
+qwen2.5-0.5b-instruct,corrective,What is a primary key in SQL?,True,A primary key in SQL refers to a column within a table that uniquely identifies each row in the table. It must be unique and cannot be NULL.,1.0,True,10.638001918792725,0
+qwen2.5-0.5b-instruct,corrective,What is the difference between WHERE and HAVING?,True,"WHERE filters rows before grouping, while HAVING filters groups after GROUP BY.",1.0,True,5.676613807678223,0
+qwen2.5-0.5b-instruct,corrective,What does ACID stand for?,True,"ACID stands for Atomicity, Consistency, Isolation, and Durability.",1.0,True,5.8579206466674805,0
+qwen2.5-0.5b-instruct,corrective,how can i stop my model from memorizing the training data?,True,"To prevent your model from memorizing the training data, you can implement techniques such as adding more training data, applying regularization methods like L1 or L2 regularization, employing cross-validation for better generalization, implementing early stopping, and incorporating dropout layers during training.",1.0,True,12.696819543838501,0
+qwen2.5-0.5b-instruct,corrective,What is the capital of France?,False,"Sorry, the course materials do not contain enough information to answer this question.",1.0,,2.9153378009796143,2
+qwen2.5-0.5b-instruct,corrective,What is the final exam date of the SQL course?,False,"The final exam for the SQL course is scheduled for Wednesday, October 17th, at 3 PM.",0.0,,10.334818124771118,0
+qwen2.5-0.5b-instruct,corrective,Which university is the Machine Learning course taught at?,False,"The Machine Learning course is taught at [University Name], which has the following details:
+
+- Course: Machine Learning Fundamentals
+- Instructor: Sara Hassan
+- Duration: 12 weeks
+- Grading: Assignments (30%), Midterm Exam (30%), Final Project (40%)
+- Prerequisites: Basic Python and linear algebra
+- Office hours: Tuesdays from 2 PM to 4 PM
+
+Therefore, the University Name is [University Name].",0.0,,19.533501148223877,0
