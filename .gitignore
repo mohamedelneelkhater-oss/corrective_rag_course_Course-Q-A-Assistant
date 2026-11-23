@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local vector DB, saved weights, generated logs & batch outputs
+chroma_db/
+best_llm/
+best_model.json
+*.log
+batch_results_*.csv
+course_materials/uploads/
+.chainlit/
