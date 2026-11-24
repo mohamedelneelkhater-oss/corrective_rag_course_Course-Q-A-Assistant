@@ -1,3 +1,7 @@
+
+
+
+
 # Corrective RAG System for Course Q&A (Lightweight, CPU-Friendly)
 
 An end-to-end, lightweight, CPU-friendly Corrective Retrieval-Augmented Generation (CRAG) assistant built to answer student questions across multi-course academic materials (PDF, DOCX, CSV, and TXT).
