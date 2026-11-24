@@ -6,7 +6,7 @@ This repository merges two complete RAG architectures into one unified system:
 1. **Standard Course Q&A RAG:** Multi-format ingestion, semantic embedding, persistent vector storage, and grounded question answering with source attribution.
 2. **Corrective RAG (CRAG):** Pre-generation chunk relevance grading, automatic query rewriting with bounded retries when context is weak, verified-context-only answer generation, and strict refusal handling for out-of-scope questions.
 
-**Kaggle Notebook & Dataset:** Run the full reproducible pipeline, inspect evaluation charts, or access the generated course materials dataset directly on Kaggle: [🔗 Open ](https://www.kaggle.com/code/mohamedelneel/corrective-rag-course-course-q-a-assistant)on Kaggle](#)
+**Kaggle Notebook & Dataset:** Run the full reproducible pipeline, inspect evaluation charts, or access the generated course materials dataset directly on Kaggle: [(https://www.kaggle.com/code/mohamedelneel/corrective-rag-course-course-q-a-assistant)](#)
 
 ---
 
